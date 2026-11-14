@@ -177,14 +177,15 @@
             border: 0;
         }
 
-        /* ===== HERO - SOLE IMAGE ONLY, LANDSCAPE FULL-WIDTH ===== */
+
+        /* ===== HERO - SOLE IMAGE ONLY, FITTED TO 1100 VIEWPORT ===== */
         section.hero {
             position: relative;
             width: 100%;
-            max-width: 100%;
+            max-width: 1100px;
             margin: 0 auto;
             padding: 0 !important;
-            background: #081849;
+            background: #000;
             overflow: hidden;
             display: block;
             line-height: 0;
@@ -193,13 +194,13 @@
         .hero-img {
             display: block;
             width: 100%;
-            max-width: 100%;
+            max-width: 1100px;
             height: auto;
-            aspect-ratio: 21 / 9;
-            object-fit: cover;
-            object-position: center;
-            background: #081849;
+            object-fit: contain;
+            object-position: center top;
         }
+
+        
 
         /* ===== ROTATING CARDS ===== */
         .rotating-cards {
@@ -761,7 +762,7 @@
             experiential learning, and community events.
         </p>
         
-        <img  src="https://i.ibb.co/Q3FsBg2B/IMG-20261114-WA8182.jpg" alt="IMG 20261114 WA8182"  class="hero-img" decoding="async" fetchpriority="high">
+        <img  src="https://i.ibb.co/Q3FsBg2B/IMG-20261114-WA8182.jpg" alt="IMG 20261114 WA8182"  class="hero-img" decoding="async" >
     </section>
 
     <section class="rotating-cards" aria-label="Featured experiences">
